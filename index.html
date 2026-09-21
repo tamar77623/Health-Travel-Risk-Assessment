@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Health Travel Risk Assessment</title>
+</head>
+<body class="bg-slate-100 m-0 p-0">
+    <div id="contanier" class="bg-indigo-950 text-white p-5 m-24 rounded-xl shadow-lg">
+    <select id="select1" class="block bg-slate-900 mx-auto my-3 w-60 p-1 rounded-lg font-semibold">
+        <option value="">Select Your country</option>
+        <option value="europ">European country</option>
+        <option value="tropical">tropical country</option>
+        <option value="africa">African country</option>
+        <option value="asian">Asian country</option>
+    </select>
+    <input type="number" placeholder="Please Enter Your Age" id="inp1" class="block bg-slate-900 mx-auto my-3 w-60 p-1 rounded-lg font-semibold">
+    <select id="select2" class="block bg-slate-900 mx-auto my-3 w-60 p-1 rounded-lg font-semibold">
+        <option value="">hasChronicDiseases</option>
+        <option value="yes">YES</option>
+        <option value="no">No</option>
+    </select>
+    <input type="number" id="inp2" placeholder="Length of stay in days" class="block bg-slate-900 mx-auto my-3 w-60 p-1 rounded-lg font-semibold">
+    <button id="btn" class="bg-slate-950 block mx-auto my-5 w-56 p-1 font-medium cursor-pointer rounded-xl hover:bg-slate-800 duration-500">Health risk analysis</button>
+    <h3 id="h3" class="font-semibold text-center text-indigo-50"></h3>
+    <small id="small" class="block text-center m-2 font-bold text-xl"></small>
+</div>
+    <script src="main.js"></script>
+</body>
+</html> 
